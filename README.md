@@ -9,3 +9,4 @@
 ![Изображение alt](https://github.com/daryagent/labprogramm/raw/main/6.jpg)
 ![Изображение alt](https://github.com/daryagent/labprogramm/raw/main/7.jpg)
 ![Изображение alt](https://github.com/daryagent/labprogramm/raw/main/8.jpg)
+###Среда программирования: Microsoft Visual Studio Чтобы запустить программу, нажмите зеленую стрелку (кнопка запуска) на главной панели инструментов Visual Studio либо нажмите клавиши F5 или CTRL+F5 для запуска программы.
