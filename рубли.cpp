@@ -7,74 +7,74 @@ int main()
 
 	int enterNumber = 0;
 
-	cout << "¬‚Â‰ËÚÂ ˆÂÎÓÂ ˜ËÒÎÓ (ÓÚ 1 ‰Ó 9999): ";
+	cout << "–í–≤–µ–¥–∏—Ç–µ —Ü–µ–ª–æ–µ —á–∏—Å–ª–æ (–æ—Ç 1 –¥–æ 9999): ";
 	cin >> enterNumber;
 
-	if (enterNumber <= 0 || enterNumber > 9999)
-		cout << "◊ËÒÎÓ ÌÂ ‚ıÓ‰ËÚ ‚ ‰Ë‡Ô‡ÁÓÌ ÓÚ 1 ‰Ó 9999!\n";
-	else
+	if (enterNumber <= 0 || enterNumber > 9999)// –ø—Ä–æ–≤–µ—Ä—è–µ–º –≤—Ö–æ–¥–∏—Ç –ª–∏ –≤–≤–µ–¥–µ–Ω–Ω–æ–µ —á–∏—Å–ª–æ –≤ –∑–∞–¥–∞–Ω–Ω—ã–π –¥–∏–∞–ø–∞–∑–æ–Ω
+		cout << "–ß–∏—Å–ª–æ –Ω–µ –≤—Ö–æ–¥–∏—Ç –≤ –¥–∏–∞–ø–∞–∑–æ–Ω –æ—Ç 1 –¥–æ 9999!\n";
+	
+	else // –µ—Å–ª–∏ –¥–∞ - –ø—Ä–∏—Å—Ç—É–ø–∞–µ–º –∫ –≤—ã–≤–æ–¥—É –Ω–∞ —ç–∫—Ä–∞–Ω
 	{
-		cout << "\n¬˚ ‚‚ÂÎË: ";
+		cout << "\n–í—ã –≤–≤–µ–ª–∏: ";
 
-		if ((enterNumber / 1000) % 10 == 1) cout << "Œ‰Ì‡ Ú˚Òˇ˜‡ ";
-		else if ((enterNumber / 1000) % 10 == 2) cout << "ƒ‚Â Ú˚Òˇ˜Ë ";
-		else if ((enterNumber / 1000) % 10 == 3) cout << "“Ë Ú˚Òˇ˜Ë ";
-		else if ((enterNumber / 1000) % 10 == 4) cout << "◊ÂÚ˚Â Ú˚Òˇ˜Ë ";
-		else if ((enterNumber / 1000) % 10 == 5) cout << "œˇÚ¸ Ú˚Òˇ˜ ";
-		else if ((enterNumber / 1000) % 10 == 6) cout << "ÿÂÒÚ¸ Ú˚Òˇ˜ ";
-		else if ((enterNumber / 1000) % 10 == 7) cout << "—ÂÏ¸ Ú˚Òˇ˜ ";
-		else if ((enterNumber / 1000) % 10 == 8) cout << "¬ÓÒÂÏ¸ Ú˚Òˇ˜ ";
-		else if ((enterNumber / 1000) % 10 == 9) cout << "ƒÂ‚ˇÚ¸ Ú˚Òˇ˜ ";
+		if ((enterNumber / 1000) % 10 == 1) cout << "–û–¥–Ω–∞ —Ç—ã—Å—è—á–∞ ";// —á—Ç–æ–±—ã –¥–æ–±—Ä–∞—Ç—å—Å—è –¥–æ –ø–µ—Ä–≤–æ–π —Ü–∏—Ñ—Ä—ã –≤ –≤–≤–µ–¥–µ–Ω–Ω–æ–º —á–∏—Å–ª–µ (–µ—Å–ª–∏ –æ–Ω–æ —á–µ—Ç—ã—Ä–µ—Ö–∑–Ω–∞—á–Ω–æ–µ), –Ω–∞–¥–æ —ç—Ç–æ —á–∏—Å–ª–æ –ø–æ–¥–µ–ª–∏—Ç—å –Ω–∞ 1000 –∏ –≤–∑—è—Ç—å –æ—Ç –Ω–µ–≥–æ –æ—Å—Ç–∞—Ç–æ–∫ –æ—Ç –¥–µ–ª–µ–Ω–∏—è –Ω–∞ 10
+		else if ((enterNumber / 1000) % 10 == 2) cout << "–î–≤–µ —Ç—ã—Å—è—á–∏ ";
+		else if ((enterNumber / 1000) % 10 == 3) cout << "–¢—Ä–∏ —Ç—ã—Å—è—á–∏ ";
+		else if ((enterNumber / 1000) % 10 == 4) cout << "–ß–µ—Ç—ã—Ä–µ —Ç—ã—Å—è—á–∏ ";
+		else if ((enterNumber / 1000) % 10 == 5) cout << "–ü—è—Ç—å —Ç—ã—Å—è—á ";
+		else if ((enterNumber / 1000) % 10 == 6) cout << "–®–µ—Å—Ç—å —Ç—ã—Å—è—á ";
+		else if ((enterNumber / 1000) % 10 == 7) cout << "–°–µ–º—å —Ç—ã—Å—è—á ";
+		else if ((enterNumber / 1000) % 10 == 8) cout << "–í–æ—Å–µ–º—å —Ç—ã—Å—è—á ";
+		else if ((enterNumber / 1000) % 10 == 9) cout << "–î–µ–≤—è—Ç—å —Ç—ã—Å—è—á ";
 
 
-		if ((enterNumber / 100) % 10 == 1) cout << "ÒÚÓ ";
-		else if ((enterNumber / 100) % 10 == 2) cout << "‰‚ÂÒÚË ";
-		else if ((enterNumber / 100) % 10 == 3) cout << "ÚËÒÚ‡ ";
-		else if ((enterNumber / 100) % 10 == 4) cout << "˜ÂÚ˚ÂÒÚ‡ ";
-		else if ((enterNumber / 100) % 10 == 5) cout << "ÔˇÚ¸ÒÓÚ ";
-		else if ((enterNumber / 100) % 10 == 6) cout << "¯ÂÒÚ¸ÒÓÚ ";
-		else if ((enterNumber / 100) % 10 == 7) cout << "ÒÂÏ¸ÒÓÚ ";
-		else if ((enterNumber / 100) % 10 == 8) cout << "‚ÓÒÂÏ¸ÒÓÚ ";
-		else if ((enterNumber / 100) % 10 == 9) cout << "‰Â‚ˇÚ¸ÒÓÚ ";
+		if ((enterNumber / 100) % 10 == 1) cout << "—Å—Ç–æ ";// —á—Ç–æ–±—ã –¥–æ–±—Ä–∞—Ç—å—Å—è –¥–æ –≤—Ç–æ—Ä–æ–π —Ü–∏—Ñ—Ä—ã –≤ –≤–≤–µ–¥–µ–Ω–Ω–æ–º —á–∏—Å–ª–µ (–µ—Å–ª–∏ –æ–Ω–æ —á–µ—Ç—ã—Ä–µ—Ö–∑–Ω–∞—á–Ω–æ–µ), –Ω–∞–¥–æ —ç—Ç–æ —á–∏—Å–ª–æ –ø–æ–¥–µ–ª–∏—Ç—å –Ω–∞ 100 –∏ –≤–∑—è—Ç—å –æ—Ç –Ω–µ–≥–æ –æ—Å—Ç–∞—Ç–æ–∫ –æ—Ç –¥–µ–ª–µ–Ω–∏—è –Ω–∞ 10
+		else if ((enterNumber / 100) % 10 == 2) cout << "–¥–≤–µ—Å—Ç–∏ ";
+		else if ((enterNumber / 100) % 10 == 3) cout << "—Ç—Ä–∏—Å—Ç–∞ ";
+		else if ((enterNumber / 100) % 10 == 4) cout << "—á–µ—Ç—ã—Ä–µ—Å—Ç–∞ ";
+		else if ((enterNumber / 100) % 10 == 5) cout << "–ø—è—Ç—å—Å–æ—Ç ";
+		else if ((enterNumber / 100) % 10 == 6) cout << "—à–µ—Å—Ç—å—Å–æ—Ç ";
+		else if ((enterNumber / 100) % 10 == 7) cout << "—Å–µ–º—å—Å–æ—Ç ";
+		else if ((enterNumber / 100) % 10 == 8) cout << "–≤–æ—Å–µ–º—å—Å–æ—Ç ";
+		else if ((enterNumber / 100) % 10 == 9) cout << "–¥–µ–≤—è—Ç—å—Å–æ—Ç ";
 
 		if ((enterNumber / 10) % 10 == 1)
 		{
-			if (enterNumber % 10 == 0) cout << "‰ÂÒˇÚ¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 1) cout << "Ó‰ËÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 2) cout << "‰‚ÂÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ ";
-			else if (enterNumber % 10 == 3) cout << "ÚËÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 4) cout << "˜ÂÚ˚Ì‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 5) cout << "ÔˇÚÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 6) cout << "¯ÂÒÚÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ ";
-			else if (enterNumber % 10 == 7) cout << "ÒÂÏÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 8) cout << "‚ÓÒÂÏÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ";
-			else if (enterNumber % 10 == 9) cout << "‰Â‚ˇÚÌ‡‰ˆ‡Ú¸ Û·ÎÂÈ ";
+			if (enterNumber % 10 == 0) cout << "–¥–µ—Å—è—Ç—å —Ä—É–±–ª–µ–π";// –ü–æ–¥—Å—á—ë—Ç –æ—Ç 10 –¥–æ 20
+			else if (enterNumber % 10 == 1) cout << "–æ–¥–∏–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 2) cout << "–¥–≤–µ–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π ";
+			else if (enterNumber % 10 == 3) cout << "—Ç—Ä–∏–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 4) cout << "—á–µ—Ç—ã—Ä–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 5) cout << "–ø—è—Ç–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 6) cout << "—à–µ—Å—Ç–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π ";
+			else if (enterNumber % 10 == 7) cout << "—Å–µ–º–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 8) cout << "–≤–æ—Å–µ–º–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 9) cout << "–¥–µ–≤—è—Ç–Ω–∞–¥—Ü–∞—Ç—å —Ä—É–±–ª–µ–π ";
 		}
 
-		if ((enterNumber / 10) % 10 == 2) cout << "‰‚‡‰ˆ‡Ú¸ ";
-		else if ((enterNumber / 10) % 10 == 3) cout << "ÚË‰ˆ‡Ú¸ ";
-		else if ((enterNumber / 10) % 10 == 4) cout << "ÒÓÓÍ ";
-		else if ((enterNumber / 10) % 10 == 5) cout << "ÔˇÚ¸‰ÂÒˇÚ ";
-		else if ((enterNumber / 10) % 10 == 6) cout << "¯ÂÒÚ¸‰ÂÒˇÚ ";
-		else if ((enterNumber / 10) % 10 == 7) cout << "ÒÂÏ¸‰ÂÒˇÚ ";
-		else if ((enterNumber / 10) % 10 == 8) cout << "‚ÓÒÂÏ¸‰ÂÒˇÚ ";
-		else if ((enterNumber / 10) % 10 == 9) cout << "‰Â‚ˇÌÓÒÚÓ ";
+		if ((enterNumber / 10) % 10 == 2) cout << "–¥–≤–∞–¥—Ü–∞—Ç—å "; // –ü–æ–¥—Å—á—ë—Ç –¥–µ—Å—è—Ç–∫–æ–≤
+		else if ((enterNumber / 10) % 10 == 3) cout << "—Ç—Ä–∏–¥—Ü–∞—Ç—å ";
+		else if ((enterNumber / 10) % 10 == 4) cout << "—Å–æ—Ä–æ–∫ ";
+		else if ((enterNumber / 10) % 10 == 5) cout << "–ø—è—Ç—å–¥–µ—Å—è—Ç ";
+		else if ((enterNumber / 10) % 10 == 6) cout << "—à–µ—Å—Ç—å–¥–µ—Å—è—Ç ";
+		else if ((enterNumber / 10) % 10 == 7) cout << "—Å–µ–º—å–¥–µ—Å—è—Ç ";
+		else if ((enterNumber / 10) % 10 == 8) cout << "–≤–æ—Å–µ–º—å–¥–µ—Å—è—Ç ";
+		else if ((enterNumber / 10) % 10 == 9) cout << "–¥–µ–≤—è–Ω–æ—Å—Ç–æ ";
 
 		if ((enterNumber / 10) % 10 != 1)
 		{
-			if (enterNumber % 10 == 0) cout << "Û·ÎÂÈ";
-			else if (enterNumber % 10 == 1) cout << "Ó‰ËÌ Û·Îˇ";
-			else if (enterNumber % 10 == 2) cout << "‰‚‡  Û·Îˇ";
-			else if (enterNumber % 10 == 3) cout << "ÚË Û·Îˇ ";
-			else if (enterNumber % 10 == 4) cout << "˜ÂÚ˚Â Û·Îˇ ";
-			else if (enterNumber % 10 == 5) cout << "ÔˇÚ¸ Û·ÎÂÈ ";
-			else if (enterNumber % 10 == 6) cout << "¯ÂÒÚ¸ Û·ÎÂÈ ";
-			else if (enterNumber % 10 == 7) cout << "ÒÂÏ¸ Û·ÎÂÈ ";
-			else if (enterNumber % 10 == 8) cout << "‚ÓÒÂÏ¸ Û·ÎÂÈ ";
-			else cout << "‰Â‚ˇÚ¸ Û·ÎÂÈ ";
+			if (enterNumber % 10 == 0) cout << "—Ä—É–±–ª–µ–π";
+			else if (enterNumber % 10 == 1) cout << "–æ–¥–∏–Ω —Ä—É–±–ª—è";
+			else if (enterNumber % 10 == 2) cout << "–¥–≤–∞  —Ä—É–±–ª—è";
+			else if (enterNumber % 10 == 3) cout << "—Ç—Ä–∏ —Ä—É–±–ª—è ";
+			else if (enterNumber % 10 == 4) cout << "—á–µ—Ç—ã—Ä–µ —Ä—É–±–ª—è ";
+			else if (enterNumber % 10 == 5) cout << "–ø—è—Ç—å —Ä—É–±–ª–µ–π ";
+			else if (enterNumber % 10 == 6) cout << "—à–µ—Å—Ç—å —Ä—É–±–ª–µ–π ";
+			else if (enterNumber % 10 == 7) cout << "—Å–µ–º—å —Ä—É–±–ª–µ–π ";
+			else if (enterNumber % 10 == 8) cout << "–≤–æ—Å–µ–º—å —Ä—É–±–ª–µ–π ";
+			else cout << "–¥–µ–≤—è—Ç—å —Ä—É–±–ª–µ–π ";
 		}
 	}
 
 	cout << endl << endl;
 	return 0;
-}
